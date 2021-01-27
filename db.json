@@ -1,0 +1,45 @@
+{
+  "bg": "https://media.istockphoto.com/photos/blue-tennis-court-and-illuminated-indoor-arena-with-fans-upper-front-picture-id1176735816?k=6&m=1176735816&s=612x612&w=0&h=6q3Ha2Q_b0W5Nbo4OrAcLUHh4VkMhN-uPgjKeD-iE2k=",
+  "title": "Quiz do esporte tênis e Grand Slams",
+  "description": "Teste os seus conhecimentos sobre tênis. Um esporte muito incrível",
+  "questions": [
+    {
+      "image": "https://media.giphy.com/media/kcb2A3eAfkwUw/giphy.gif",
+      "title": "Quem é o maior campeão do torneio Wimbledom (masculino)?",
+      "description": "Essa é pra aquecer",
+      "answer": 0,
+      "alternatives": [
+        "Roger Federer",
+        "Novak Djokovic",
+        "Guga",
+        "Andre Agassi"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/nFsaaVCUcmhIJM5CEl/giphy.gif",
+      "title": "Quem é o maior campeão de Rolland Garros(Masculino)?",
+      "description": "Só tem fera nessa",
+      "answer": 0,
+      "alternatives": [
+         "Rafael Nadal",
+         "Pete Sampras",
+         "Roger Federer",
+         "Novak Djokovic"
+      ]
+    }
+  ],
+  "external": [
+    ""
+  ],
+  "theme": {
+    "colors": {
+      "primary": "#1f2223",
+      "secondary": "#f1f1f1",
+      "mainBg": "#051224",
+      "contrastText": "#FFFFFF",
+      "wrong": "#FF5722",
+      "success": "#4CAF50"
+    },
+    "borderRadius": "4px"
+  }
+}
