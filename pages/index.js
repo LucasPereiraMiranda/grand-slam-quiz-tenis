@@ -1,12 +1,13 @@
-import styled from 'styled-components'
-
-
+import React, { useState } from 'react';
+import styled from 'styled-components';
+import Head from 'next/head';
+import { useRouter } from 'next/router';
 import db from '../db.json';
-import Widget from '../src/components/Widget'
-import QuizLogo from '../src/components/QuizLogo'
-import QuizBackground from '../src/components/QuizBackground'
-import Footer from '../src/components/Footer'
-import GitHubCorner from '../src/components/GithubCorner'
+import Widget from '../src/components/Widget';
+import QuizLogo from '../src/components/QuizLogo';
+import QuizBackground from '../src/components/QuizBackground';
+import Footer from '../src/components/Footer';
+import GitHubCorner from '../src/components/GithubCorner';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -20,8 +21,14 @@ export const QuizContainer = styled.div`
 `;
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = useState('');
+
   return (
     <QuizBackground backgroundImage={db.bg}>
+      <Head>
+        <title>AluraQuiz - Modelo Base</title>
+      </Head>
       <QuizContainer>
         <QuizLogo />
         <Widget>
@@ -30,6 +37,21 @@ export default function Home() {
           </Widget.Header>
           <Widget.Content>
             <p>{db.description}</p>
+            <form
+              onSubmit={(event) => {
+                event.preventDefault();
+                router.push(`/quiz?name=${name}`);
+              }}
+            >
+              <input
+                disabled
+                placeholder="Diz aí seu nome"
+                onChange={(event) => {
+                  setName(event.target.value);
+                }}
+              />
+              <button type="submit">Jogar</button>
+            </form>
           </Widget.Content>
         </Widget>
 
