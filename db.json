@@ -53,7 +53,6 @@
     }
   ],
   "external": [
-    "https://learning-next-js.mariomendonca.vercel.app/",
     "https://aluraquiz-base.alura-challenges.vercel.app/"
   ],
   "theme": {
