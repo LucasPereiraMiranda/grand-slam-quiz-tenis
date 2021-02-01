@@ -24,7 +24,7 @@ function ResultWidget({ results }) {
             }
             return somatoriaAtual;
           }, 0)}
-          {results.filter((x) => x).length} perguntas
+          /{results.filter((x) => x).length} perguntas
         </p>
         <ul>
           {results.map((result, index) => (
