@@ -26,15 +26,40 @@
          "Roger Federer",
          "Novak Djokovic"
       ]
+    },
+    {
+      "image": "https://media.giphy.com/media/kcb2A3eAfkwUw/giphy.gif",
+      "title": "Quem ganhou o Australian Open 2020 (masculino)?",
+      "description": "Bora marcar esse ponto",
+      "answer": 1,
+      "alternatives": [
+        "Roger Federer",
+        "Novak Djokovic",
+        "Stan Wawrinka",
+        "Andy Murray"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/kcb2A3eAfkwUw/giphy.gif",
+      "title": "Quem ganhou o US Open 2020 (masculino)?",
+      "description": "Bora marcar esse ponto",
+      "answer": 2,
+      "alternatives": [
+        "Roger Federer",
+        "Novak Djokovic",
+        "Dominic Thiem",
+        "Andy Murray"
+      ]
     }
   ],
   "external": [
-    ""
+    "https://learning-next-js.mariomendonca.vercel.app/",
+    "https://aluraquiz-base.alura-challenges.vercel.app/"
   ],
   "theme": {
     "colors": {
       "primary": "#1f2223",
-      "secondary": "#f1f1f1",
+      "secondary": "#ccc",
       "mainBg": "#051224",
       "contrastText": "#FFFFFF",
       "wrong": "#FF5722",
