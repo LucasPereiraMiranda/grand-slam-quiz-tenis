@@ -1,4 +1,3 @@
-// src/components/GitHubCorner/index.js
 import React from 'react';
 import styled from 'styled-components';
 
@@ -41,7 +40,6 @@ const SVGWrapper = styled.svg`
   }
 `;
 
-// eslint-disable-next-line react/prop-types
 export default function GitHubCorner({ projectUrl }) {
   return (
     <Wrapper>
